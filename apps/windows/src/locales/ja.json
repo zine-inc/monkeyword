@@ -130,10 +130,11 @@
   "settings": {
     "eyebrow": "Preferences",
     "title": "設定",
-    "body": "Phase 1 は mock mode 固定です。保存した接続資格情報は画面には再表示しません。",
+    "body": "Phase 1 は mock mode 固定です。接続資格情報は保存しません。",
     "apiUrl": "API URL",
     "apiKey": "接続資格情報",
-    "apiKeyPlaceholder": "ローカルに保存する値を入力",
+    "apiKeyPlaceholder": "Phase 1 では無効",
+    "apiKeyPhase2": "Phase 2 では Windows Credential Manager 経由で管理します。",
     "hasApiKey": "接続資格情報を保存済み",
     "clearApiKey": "接続資格情報を削除",
     "save": "保存",

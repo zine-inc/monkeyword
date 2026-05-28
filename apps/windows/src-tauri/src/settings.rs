@@ -24,8 +24,6 @@ pub enum Theme {
 #[serde(rename_all = "camelCase")]
 pub struct SettingsUpdate {
     pub api_url: Option<String>,
-    pub api_key: Option<String>,
-    pub clear_api_key: Option<bool>,
     pub locale: Option<Locale>,
     pub theme: Option<Theme>,
     pub mock_mode: Option<bool>,
@@ -45,6 +43,12 @@ pub fn get_settings(app: &AppHandle) -> Result<PublicSettings, CommandError> {
     let store = app
         .store(STORE_FILE)
         .map_err(|_| CommandError::new("settings_store_failed", "Settings store is unavailable"))?;
+    if store.get("apiKey").is_some() {
+        store.delete("apiKey");
+        store
+            .save()
+            .map_err(|_| CommandError::new("settings_save_failed", "Settings could not be saved"))?;
+    }
     let api_url = store
         .get("apiUrl")
         .and_then(|value| value.as_str().map(ToOwned::to_owned))
@@ -57,17 +61,13 @@ pub fn get_settings(app: &AppHandle) -> Result<PublicSettings, CommandError> {
         Some(value) if value == "dark" => Theme::Dark,
         _ => Theme::Light,
     };
-    let has_api_key = store
-        .get("apiKey")
-        .and_then(|value| value.as_str().map(|text| !text.is_empty()))
-        .unwrap_or(false);
 
     Ok(PublicSettings {
         api_url,
         locale,
         theme,
         mock_mode: true,
-        has_api_key,
+        has_api_key: false,
     })
 }
 
@@ -88,12 +88,9 @@ pub fn save_settings(
     if let Some(theme) = update.theme {
         store.set("theme", json!(theme));
     }
-    if update.clear_api_key.unwrap_or(false) {
+    if store.get("apiKey").is_some() {
+        // Phase 2: move credential storage to Windows Credential Manager.
         store.delete("apiKey");
-    } else if let Some(api_key) = update.api_key {
-        if !api_key.trim().is_empty() {
-            store.set("apiKey", json!(api_key.trim()));
-        }
     }
     if update.mock_mode == Some(false) {
         store.set("mockMode", json!(true));
