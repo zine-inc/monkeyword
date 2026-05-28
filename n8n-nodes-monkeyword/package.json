@@ -28,6 +28,7 @@
     ]
   },
   "scripts": {
+    "prepack": "npm run build",
     "build": "tsc && copyfiles -u 1 src/nodes/**/*.svg dist/",
     "dev": "tsc --watch",
     "lint": "eslint src --ext .ts",
