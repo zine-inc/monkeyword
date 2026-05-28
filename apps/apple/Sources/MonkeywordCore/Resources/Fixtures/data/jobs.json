@@ -1,0 +1,107 @@
+[
+  {
+    "id": "job_20260528_001",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/suggest",
+    "status": "done",
+    "scheduledAt": "2026-05-28T00:05:00Z",
+    "completedAt": "2026-05-28T00:07:18Z"
+  },
+  {
+    "id": "job_20260528_002",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/rank",
+    "status": "done",
+    "scheduledAt": "2026-05-28T00:10:00Z",
+    "completedAt": "2026-05-28T00:12:41Z"
+  },
+  {
+    "id": "job_20260528_003",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/backlink",
+    "status": "done",
+    "scheduledAt": "2026-05-28T00:20:00Z",
+    "completedAt": "2026-05-28T00:25:12Z"
+  },
+  {
+    "id": "job_20260528_004",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/competitor",
+    "status": "done",
+    "scheduledAt": "2026-05-28T00:30:00Z",
+    "completedAt": "2026-05-28T00:36:50Z"
+  },
+  {
+    "id": "job_20260528_005",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/audit",
+    "status": "done",
+    "scheduledAt": "2026-05-28T00:45:00Z",
+    "completedAt": "2026-05-28T00:47:04Z"
+  },
+  {
+    "id": "job_20260528_006",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/brief",
+    "status": "done",
+    "scheduledAt": "2026-05-28T01:00:00Z",
+    "completedAt": "2026-05-28T01:02:55Z"
+  },
+  {
+    "id": "job_20260528_007",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/gap",
+    "status": "done",
+    "scheduledAt": "2026-05-28T01:15:00Z",
+    "completedAt": "2026-05-28T01:19:27Z"
+  },
+  {
+    "id": "job_20260528_008",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/topic_cluster",
+    "status": "done",
+    "scheduledAt": "2026-05-28T01:30:00Z",
+    "completedAt": "2026-05-28T01:33:44Z"
+  },
+  {
+    "id": "job_20260528_009",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/content_optimize",
+    "status": "done",
+    "scheduledAt": "2026-05-28T01:45:00Z",
+    "completedAt": "2026-05-28T01:49:05Z"
+  },
+  {
+    "id": "job_20260528_010",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/internal_link",
+    "status": "done",
+    "scheduledAt": "2026-05-28T02:00:00Z",
+    "completedAt": "2026-05-28T02:01:38Z"
+  },
+  {
+    "id": "job_20260528_011",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/ai_coach",
+    "status": "done",
+    "scheduledAt": "2026-05-28T02:15:00Z",
+    "completedAt": "2026-05-28T02:17:11Z"
+  },
+  {
+    "id": "job_20260528_012",
+    "projectId": "proj_demo",
+    "kind": "monkeyword/rank",
+    "status": "running",
+    "scheduledAt": "2026-05-28T08:00:00Z",
+    "completedAt": null
+  },
+  {
+    "id": "job_20260528_013",
+    "projectId": "proj_growth_lab",
+    "kind": "monkeyword/suggest",
+    "status": "queued",
+    "scheduledAt": "2026-05-28T08:30:00Z",
+    "completedAt": null
+  }
+]
+

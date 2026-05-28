@@ -1,0 +1,28 @@
+name: apple-build
+
+on:
+  pull_request:
+    paths:
+      - 'apps/apple/**'
+      - 'apps/shared-fixtures/**'
+      - '.github/workflows/apple-build.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'apps/apple/**'
+      - '.github/workflows/apple-build.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: macos-14
+    defaults:
+      run:
+        working-directory: apps/apple
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift --version
+      - run: swift build
+      - run: swift test

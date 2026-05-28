@@ -1,0 +1,47 @@
+[
+  {
+    "id": "coach_001",
+    "title": "『被リンク 増やし方』で記事を書く",
+    "reasonOneLine": "検索する人が多く、いまのサイトに答えになるページがありません。",
+    "expectedEffect": "3 ヶ月後に月 200 人の訪問見込み",
+    "status": "todo",
+    "relatedKeyword": "被リンク 増やし方",
+    "priority": 5
+  },
+  {
+    "id": "coach_002",
+    "title": "料金ページに canonical を追加する",
+    "reasonOneLine": "検索エンジンに代表ページを伝えられていない状態です。",
+    "expectedEffect": "2 週間で監査スコア +6 点を見込み",
+    "status": "todo",
+    "relatedKeyword": "seo ツール 比較",
+    "priority": 4
+  },
+  {
+    "id": "coach_003",
+    "title": "『キーワード 難易度 調べ方』の記事に手順画像を追加する",
+    "reasonOneLine": "読者が操作イメージをつかみやすくなると、最後まで読まれやすくなります。",
+    "expectedEffect": "1 ヶ月後に平均順位 10 位以内を見込み",
+    "status": "todo",
+    "relatedKeyword": "キーワード 難易度 調べ方",
+    "priority": 4
+  },
+  {
+    "id": "coach_004",
+    "title": "無料 SEO ツール比較表を更新する",
+    "reasonOneLine": "比較表が最新だと、検索結果からクリックされやすくなります。",
+    "expectedEffect": "4 週間でクリック率 +1.5 ポイントを見込み",
+    "status": "done",
+    "relatedKeyword": "seo ツール 無料",
+    "priority": 3
+  },
+  {
+    "id": "coach_005",
+    "title": "『ローカル llm seo』の用語説明を増やす",
+    "reasonOneLine": "初めて読む人が途中で迷いやすいテーマです。",
+    "expectedEffect": "2 ヶ月後に直帰率 -8% を見込み",
+    "status": "snoozed",
+    "relatedKeyword": "ローカル llm seo",
+    "priority": 2
+  }
+]

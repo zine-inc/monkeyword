@@ -1,0 +1,41 @@
+[
+  {
+    "url": "monkeyword.1stop.direct",
+    "lighthouseScore": 82,
+    "lcp": 2.1,
+    "inp": 180,
+    "cls": 0.06,
+    "checks": [
+      {
+        "name": "title 重複",
+        "status": "warn",
+        "detail": "上位 2 ページで似たタイトルが使われています。"
+      },
+      {
+        "name": "canonical 欠落",
+        "status": "fail",
+        "detail": "料金ページに canonical が設定されていません。"
+      },
+      {
+        "name": "schema 未設定",
+        "status": "warn",
+        "detail": "FAQ と HowTo の構造化データが未設定です。"
+      },
+      {
+        "name": "sitemap",
+        "status": "pass",
+        "detail": "sitemap.xml が取得でき、主要ページが含まれています。"
+      },
+      {
+        "name": "robots",
+        "status": "pass",
+        "detail": "robots.txt はクロールを妨げていません。"
+      },
+      {
+        "name": "h1",
+        "status": "pass",
+        "detail": "主要ページに一意の h1 が設定されています。"
+      }
+    ]
+  }
+]
