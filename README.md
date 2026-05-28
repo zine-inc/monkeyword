@@ -1,5 +1,11 @@
 # monkeyword
 
+[![apple-build](https://github.com/zine-inc/monkeyword/actions/workflows/apple-build.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/apple-build.yml)
+[![windows-app](https://github.com/zine-inc/monkeyword/actions/workflows/windows-app.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/windows-app.yml)
+[![n8n-node-build](https://github.com/zine-inc/monkeyword/actions/workflows/n8n-node-build.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/n8n-node-build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20iOS%20%7C%20Windows-blue)
+
 > AI-powered SEO keyword research with a **local LLM**. Open-source desktop & mobile clients for macOS, iOS, and Windows — plus an n8n community node.
 
 ahrefs / Surfer / GRC 相当の機能を 1 本に。AI が「次の打ち手」を提案します。検索意図の分類からコンテンツ構成案まで、すべて **ローカル LLM** で処理 — あなたのデータは外部 AI API に送られません。
