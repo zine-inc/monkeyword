@@ -12,7 +12,7 @@ Free tier: 10 requests/day. Server is managed SaaS at https://monkeyword.1stop.d
 
 `n8n-nodes-monkeyword` adds monkeyword keyword research workflows to n8n as a community node.
 
-Phase 1 is a package skeleton with Mock Mode. It returns mock JSON and does not call the production monkeyword API. Phase 2 will connect the node to the managed monkeyword SaaS API.
+Phase 1 ships the **Suggest Keywords** operation in Mock Mode: it returns deterministic mock JSON and does not call the production monkeyword API. Phase 2 will connect the node to the managed monkeyword SaaS API.
 
 ### Installation
 
@@ -34,7 +34,7 @@ Create a **Monkeyword API** credential with:
 
 ### Operations
 
-Phase 1 exposes one planned operation:
+Phase 1 exposes one operation:
 
 - `Suggest Keywords`: returns keyword suggestions for SEO research.
 
@@ -42,7 +42,11 @@ Phase 1 exposes one planned operation:
 
 Mock Mode is enabled by default in Phase 1. It lets n8n workflows be wired and tested before the real monkeyword API is available.
 
-When Mock Mode is enabled, the node implementation should return deterministic mock JSON and avoid any external API request.
+When Mock Mode is enabled, the node returns deterministic mock JSON and avoids any external API request.
+
+### Publishing (maintainers)
+
+Distribution artifacts in `dist/` are built automatically on `npm pack` / `npm publish` via the `prepack` script. Publishing to the npm registry is planned for Phase 2.
 
 ### License
 
@@ -54,7 +58,7 @@ MIT
 
 `n8n-nodes-monkeyword` は、monkeyword のキーワード調査を n8n から使うための community node です。
 
-Phase 1 はパッケージ skeleton と Mock Mode の準備です。本番 monkeyword API には接続せず、mock JSON を返す前提です。Phase 2 で managed SaaS API に接続します。
+Phase 1 では **Suggest Keywords** operation を Mock Mode で提供します。決定的な mock JSON を返し、本番 monkeyword API には接続しません。Phase 2 で managed SaaS API に接続します。
 
 ### インストール
 
