@@ -1,0 +1,153 @@
+{
+  "app": {
+    "name": "monkeyword",
+    "subtitle": "個人リサーチ補助クライアント",
+    "mockMode": "Mock Mode",
+    "mockDetail": "架空データのみ",
+    "retry": "再試行",
+    "loading": "読み込み中",
+    "offlineTitle": "データを読み込めませんでした",
+    "offlineBody": "同梱 fixture を読み直します。ネットワーク接続は使いません。",
+    "project": "プロジェクト",
+    "language": "言語",
+    "theme": "テーマ",
+    "light": "ライト",
+    "dark": "ダーク",
+    "noRows": "表示する行がありません",
+    "fixtureWindow": "7 日間 fixture",
+    "total": "合計",
+    "type": "種類",
+    "localeCode": "地域"
+  },
+  "nav": {
+    "onboarding": "オンボーディング",
+    "dashboard": "ダッシュボード",
+    "keywords": "キーワード",
+    "ranks": "順位",
+    "backlinks": "被リンク",
+    "audit": "サイト監査",
+    "competitors": "競合",
+    "brief": "構成案",
+    "coach": "AI コーチ",
+    "settings": "設定"
+  },
+  "dashboard": {
+    "eyebrow": "Overview",
+    "title": "今日の優先度を一画面で確認",
+    "body": "検索意図、順位、被リンク、監査結果、次の打ち手を mock データで確認できます。",
+    "trackedKeywords": "追跡キーワード",
+    "averageRank": "平均順位",
+    "openJobs": "進行中ジョブ",
+    "coachItems": "未完了アクション",
+    "rankTrend": "平均順位の推移",
+    "intentMix": "検索意図の構成",
+    "recentJobs": "最近のジョブ",
+    "nextActions": "次の打ち手"
+  },
+  "onboarding": {
+    "eyebrow": "Setup",
+    "title": "3 分で mock ワークスペースを確認",
+    "body": "実データ接続は行わず、同梱された架空プロジェクトだけで操作できます。",
+    "step1": "対象ドメインを確認",
+    "step2": "キーワードと順位を見る",
+    "step3": "AI コーチの提案を実行候補にする",
+    "keywordCount": "25 キーワード",
+    "actionCount": "5 アクション",
+    "start": "デモ分析を開始",
+    "queued": "mock ジョブをキューに追加しました"
+  },
+  "keywords": {
+    "eyebrow": "Research",
+    "title": "キーワード候補",
+    "body": "検索ボリューム、難易度、意図クラスタを比較します。",
+    "volume": "推定検索数",
+    "difficulty": "難易度",
+    "intent": "意図",
+    "summary": "ローカル LLM 要約",
+    "filter": "意図で絞り込み",
+    "all": "すべて"
+  },
+  "ranks": {
+    "eyebrow": "Tracking",
+    "title": "順位トラッキング",
+    "body": "7 日間の固定 fixture で順位変化と SERP 特徴を確認します。",
+    "keyword": "キーワード",
+    "position": "順位",
+    "previous": "前回",
+    "features": "SERP 特徴",
+    "trend": "順位推移",
+    "trendShort": "推移"
+  },
+  "backlinks": {
+    "eyebrow": "Authority",
+    "title": "被リンク分析",
+    "body": "架空ドメインからの参照リンクを品質順に確認します。",
+    "source": "参照元",
+    "anchor": "アンカー",
+    "pagerank": "PageRank",
+    "totalLinks": "合計リンク数",
+    "follow": "follow",
+    "nofollow": "nofollow"
+  },
+  "audit": {
+    "eyebrow": "Quality",
+    "title": "サイト監査",
+    "body": "Core Web Vitals と基本チェックを mock データで表示します。",
+    "score": "監査スコア",
+    "checks": "チェック結果",
+    "coreWebVitals": "Core Web Vitals",
+    "passed": "合格",
+    "warning": "注意",
+    "failed": "要修正"
+  },
+  "competitors": {
+    "eyebrow": "Market",
+    "title": "競合分析",
+    "body": "架空の競合ドメインとキーワードギャップを比較します。",
+    "traffic": "推定流入",
+    "topKeywords": "上位キーワード",
+    "gap": "未獲得キーワード"
+  },
+  "brief": {
+    "eyebrow": "Content",
+    "title": "コンテンツ構成案",
+    "body": "検索意図から見出し、FAQ、内部リンク候補を整理します。",
+    "intent": "検索意図",
+    "outline": "見出し案",
+    "faq": "FAQ",
+    "internalLinks": "内部リンク候補",
+    "optimize": "構成案を更新"
+  },
+  "coach": {
+    "eyebrow": "Local LLM",
+    "title": "AI コーチ",
+    "body": "次に着手する施策を優先度順に確認します。",
+    "priority": "優先度",
+    "reason": "理由",
+    "effect": "期待効果",
+    "related": "関連キーワード"
+  },
+  "settings": {
+    "eyebrow": "Preferences",
+    "title": "設定",
+    "body": "Phase 1 は mock mode 固定です。保存した接続資格情報は画面には再表示しません。",
+    "apiUrl": "API URL",
+    "apiKey": "接続資格情報",
+    "apiKeyPlaceholder": "ローカルに保存する値を入力",
+    "hasApiKey": "接続資格情報を保存済み",
+    "clearApiKey": "接続資格情報を削除",
+    "save": "保存",
+    "saved": "保存しました",
+    "mockLocked": "Mock Mode 固定"
+  },
+  "status": {
+    "queued": "待機中",
+    "running": "実行中",
+    "done": "完了",
+    "todo": "未着手",
+    "snoozed": "保留",
+    "pass": "合格",
+    "warn": "注意",
+    "fail": "要修正"
+  }
+}

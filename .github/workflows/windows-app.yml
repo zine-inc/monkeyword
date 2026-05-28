@@ -1,0 +1,33 @@
+name: windows-app
+
+on:
+  pull_request:
+    paths:
+      - 'apps/windows/**'
+      - 'apps/shared-fixtures/**'
+      - '.github/workflows/windows-app.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'apps/windows/**'
+      - '.github/workflows/windows-app.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/windows
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: apps/windows/package-lock.json
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
