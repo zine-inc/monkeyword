@@ -1,0 +1,25 @@
+[
+  {
+    "id": "proj_demo",
+    "name": "monkeyword（自社サイト）",
+    "targetDomain": "monkeyword.1stop.direct",
+    "competitors": [
+      "surfseo.example",
+      "rankwave.example",
+      "keywordmint.example"
+    ],
+    "createdAt": "2026-04-08T09:15:00Z"
+  },
+  {
+    "id": "proj_growth_lab",
+    "name": "Growth Lab デモ",
+    "targetDomain": "growth-lab.1stop.direct",
+    "competitors": [
+      "contentspark.example",
+      "searchdeck.example",
+      "ranknest.example"
+    ],
+    "createdAt": "2026-05-02T12:30:00Z"
+  }
+]
+

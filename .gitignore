@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Editors / IDE
+.vscode/
+.idea/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift / Xcode / SwiftPM
+apps/apple/.build/
+apps/apple/.swiftpm/
+apps/apple/DerivedData/
+apps/apple/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Node / TypeScript
+node_modules/
+dist/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+coverage/
+.npm/
+
+# Rust / Tauri
+apps/windows/src-tauri/target/
+apps/windows/src-tauri/gen/
+apps/windows/.svelte-kit/
+apps/windows/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env / secrets (never commit)
+.env
+.env.*
+*.pem
+*.key

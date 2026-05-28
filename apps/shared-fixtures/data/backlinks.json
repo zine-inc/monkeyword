@@ -1,0 +1,67 @@
+[
+  {
+    "sourceUrl": "https://seoblog.example/articles/free-tool-roundup",
+    "sourceDomain": "seoblog.example",
+    "targetUrl": "https://monkeyword.1stop.direct/guides/free-seo-tools",
+    "anchor": "無料で試せる SEO 分析ツール",
+    "sourcePagerank": 6.8,
+    "nofollow": false
+  },
+  {
+    "sourceUrl": "https://marketingnews.example/weekly/search-tools-2026",
+    "sourceDomain": "marketingnews.example",
+    "targetUrl": "https://monkeyword.1stop.direct/",
+    "anchor": "monkeyword",
+    "sourcePagerank": 7.4,
+    "nofollow": false
+  },
+  {
+    "sourceUrl": "https://contentlab.example/posts/backlink-checklist",
+    "sourceDomain": "contentlab.example",
+    "targetUrl": "https://monkeyword.1stop.direct/guides/backlink-growth",
+    "anchor": "被リンク施策のチェックリスト",
+    "sourcePagerank": 5.9,
+    "nofollow": false
+  },
+  {
+    "sourceUrl": "https://startupnotes.example/tools/seo-stack",
+    "sourceDomain": "startupnotes.example",
+    "targetUrl": "https://monkeyword.1stop.direct/features/rank-tracking",
+    "anchor": "順位チェックを自動化できるツール",
+    "sourcePagerank": 4.6,
+    "nofollow": true
+  },
+  {
+    "sourceUrl": "https://growthweekly.example/issues/118",
+    "sourceDomain": "growthweekly.example",
+    "targetUrl": "https://monkeyword.1stop.direct/guides/keyword-difficulty",
+    "anchor": "キーワード難易度の見方",
+    "sourcePagerank": 6.1,
+    "nofollow": false
+  },
+  {
+    "sourceUrl": "https://webops.example/resources/site-audit",
+    "sourceDomain": "webops.example",
+    "targetUrl": "https://monkeyword.1stop.direct/features/site-audit",
+    "anchor": "サイト監査の自動チェック",
+    "sourcePagerank": 5.2,
+    "nofollow": false
+  },
+  {
+    "sourceUrl": "https://makershelf.example/collections/marketing",
+    "sourceDomain": "makershelf.example",
+    "targetUrl": "https://monkeyword.1stop.direct/pricing",
+    "anchor": "SEO レポートをまとめるアプリ",
+    "sourcePagerank": 3.7,
+    "nofollow": true
+  },
+  {
+    "sourceUrl": "https://searchdigest.example/reports/ai-seo-tools",
+    "sourceDomain": "searchdigest.example",
+    "targetUrl": "https://monkeyword.1stop.direct/guides/local-llm-seo",
+    "anchor": "ローカル AI を使う SEO ワークフロー",
+    "sourcePagerank": 6.5,
+    "nofollow": false
+  }
+]
+
