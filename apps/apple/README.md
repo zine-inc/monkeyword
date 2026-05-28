@@ -11,7 +11,7 @@ Phase 1 runs in mock mode only. The app reads bundled fixtures from
 
 - macOS 14 or later
 - iOS 17 or later
-- Swift 5.10 or later
+- Xcode 16 or later (Swift 6 toolchain)
 
 ## Build
 

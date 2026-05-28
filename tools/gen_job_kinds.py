@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
-"""Validate (and optionally regenerate) the public job-kinds contract.
+"""Validate the public job-kinds contract.
 
-The canonical job-kind list lives in the private server repository
-(``s2-monkeyword/shared/job_kinds.py``). This tool **statically parses** that
-file with the :mod:`ast` module — it never imports or executes it — and compares
-the kind strings against the committed public contract at
-``apps/shared-fixtures/schema/job_kinds.json``.
+The job-kind contract is published at
+``apps/shared-fixtures/schema/job_kinds.json`` and is the single source the
+clients consume.
 
 Behaviour:
 
 * Always validates the public JSON (well-formed, 11 unique ``monkeyword/*`` kinds).
-* If the private source is present next to this repo, checks for drift and
-  exits non-zero if the kind sets differ.
-* In CI (private repo absent) it validates the JSON only.
+* If a local canonical source is provided via the ``MONKEYWORD_JOB_KINDS_SOURCE``
+  environment variable (a path to a Python module defining a ``JobKind`` enum),
+  this tool statically parses it with :mod:`ast` — it never imports or executes
+  it — and exits non-zero if the kind sets drift.
 
 Run from anywhere::
 
@@ -23,12 +22,13 @@ from __future__ import annotations
 
 import ast
 import json
+import os
 import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 JSON_PATH = REPO_ROOT / "apps" / "shared-fixtures" / "schema" / "job_kinds.json"
-PRIVATE_SOURCE = REPO_ROOT.parent / "s2-monkeyword" / "shared" / "job_kinds.py"
+CANONICAL_SOURCE_ENV = "MONKEYWORD_JOB_KINDS_SOURCE"
 
 EXPECTED_COUNT = 11
 PREFIX = "monkeyword/"
@@ -73,18 +73,19 @@ def main() -> int:
     kinds = public_kinds()
     validate(kinds)
 
-    if PRIVATE_SOURCE.exists():
-        private = enum_string_values(PRIVATE_SOURCE.read_text(encoding="utf-8"), "JobKind")
-        if set(kinds) != set(private):
+    source = os.environ.get(CANONICAL_SOURCE_ENV)
+    if source and Path(source).exists():
+        canonical = enum_string_values(Path(source).read_text(encoding="utf-8"), "JobKind")
+        if set(kinds) != set(canonical):
             sys.stderr.write(
-                "DRIFT: public contract differs from private SSoT\n"
-                f"  public : {sorted(kinds)}\n"
-                f"  private: {sorted(private)}\n"
+                "DRIFT: public contract differs from the canonical source\n"
+                f"  public   : {sorted(kinds)}\n"
+                f"  canonical: {sorted(canonical)}\n"
             )
             return 1
-        print(f"OK: {len(kinds)} job kinds match the private SSoT")
+        print(f"OK: {len(kinds)} job kinds match the canonical source")
     else:
-        print(f"OK: {len(kinds)} job kinds validated (private SSoT not present)")
+        print(f"OK: {len(kinds)} job kinds validated")
     return 0
 
 
