@@ -130,10 +130,11 @@
   "settings": {
     "eyebrow": "Preferences",
     "title": "Settings",
-    "body": "Phase 1 is locked to mock mode. Saved credentials are never shown again.",
+    "body": "Phase 1 is locked to mock mode. Credentials are not stored.",
     "apiUrl": "API URL",
     "apiKey": "Credential",
-    "apiKeyPlaceholder": "Enter a value to store locally",
+    "apiKeyPlaceholder": "Disabled in Phase 1",
+    "apiKeyPhase2": "Phase 2 will use Windows Credential Manager.",
     "hasApiKey": "Credential saved",
     "clearApiKey": "Clear credential",
     "save": "Save",

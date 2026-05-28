@@ -130,8 +130,6 @@ export interface PublicSettings {
 
 export interface SettingsUpdate {
   apiUrl?: string;
-  apiKey?: string;
-  clearApiKey?: boolean;
   locale?: Locale;
   theme?: Theme;
   mockMode?: boolean;
