@@ -1,0 +1,33 @@
+name: n8n-node-build
+
+on:
+  pull_request:
+    paths:
+      - 'n8n-nodes-monkeyword/**'
+      - '.github/workflows/n8n-node-build.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'n8n-nodes-monkeyword/**'
+      - '.github/workflows/n8n-node-build.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: n8n-nodes-monkeyword
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: n8n-nodes-monkeyword/package-lock.json
+      - run: npm ci
+      - run: npm run build
+      - run: npm run lint
+      - run: npm test
