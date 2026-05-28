@@ -37,8 +37,9 @@ cd src-tauri
 cargo check
 ```
 
-The macOS development path verifies the SvelteKit frontend and Rust sources.
-Windows installers are produced in CI on Windows.
+Phase 1 CI verifies the SvelteKit frontend (`npm run check` / `npm run build`)
+on Linux. The Rust `cargo check` and Windows installers (`.exe` / `.msi`) are
+planned for Phase 2 CI on `windows-latest`.
 
 ## Mock data
 
@@ -81,4 +82,4 @@ cd src-tauri
 cargo check
 ```
 
-macOS では SvelteKit frontend と Rust source の確認までを対象にします。Windows installer は Windows CI で作成します。
+Phase 1 の CI は Linux 上で SvelteKit frontend (`npm run check` / `npm run build`) を検証します。Rust の `cargo check` と Windows installer (`.exe` / `.msi`) は Phase 2 で `windows-latest` CI 化予定です。

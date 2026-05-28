@@ -7,7 +7,7 @@
   "homepage": "https://github.com/zine-inc/monkeyword",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zine-inc/S2-monkeyword.git",
+    "url": "git+https://github.com/zine-inc/monkeyword.git",
     "directory": "n8n-nodes-monkeyword"
   },
   "main": "index.js",
