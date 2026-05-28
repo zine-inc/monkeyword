@@ -1,0 +1,55 @@
+{
+  "name": "n8n-nodes-monkeyword",
+  "version": "0.1.0",
+  "description": "n8n community node for monkeyword — AI-powered SEO keyword research with local LLM",
+  "license": "MIT",
+  "author": "ZINE Inc. (https://zineinc.co.jp)",
+  "homepage": "https://github.com/zine-inc/monkeyword",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zine-inc/S2-monkeyword.git",
+    "directory": "n8n-nodes-monkeyword"
+  },
+  "main": "index.js",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "seo",
+    "keyword",
+    "monkeyword"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/MonkeywordApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Monkeyword/Monkeyword.node.js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc && copyfiles -u 1 src/nodes/**/*.svg dist/",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "overrides": {
+    "lodash": "4.18.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.24",
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "@typescript-eslint/parser": "^8.60.0",
+    "copyfiles": "^2.4.1",
+    "eslint": "^8.57.1",
+    "eslint-plugin-n8n-nodes-base": "^1.16.6",
+    "jest": "^29.7.0",
+    "n8n-workflow": "2.7.0",
+    "ts-jest": "^29.4.11",
+    "typescript": "^5.9.3"
+  }
+}
