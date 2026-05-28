@@ -1,0 +1,57 @@
+[
+  {
+    "domain": "surfseo.example",
+    "topKeywords": [
+      "seo ツール 比較",
+      "seo 順位 チェック",
+      "キーワード 調査 ツール",
+      "コンテンツ seo 始め方",
+      "seo レポート 自動化"
+    ],
+    "estimatedTraffic": 48200,
+    "keywordGap": [
+      "検索順位 通知",
+      "seo チーム 共有",
+      "記事改善 優先順位",
+      "無料 seo 監査",
+      "キーワード 履歴 管理"
+    ]
+  },
+  {
+    "domain": "rankwave.example",
+    "topKeywords": [
+      "検索順位 変動 原因",
+      "seo ダッシュボード",
+      "順位チェック 毎日",
+      "競合順位 比較",
+      "seo 月次 レポート"
+    ],
+    "estimatedTraffic": 35600,
+    "keywordGap": [
+      "順位変動 アラート",
+      "serp 機能 追跡",
+      "seo レポート テンプレート",
+      "モバイル順位 チェック",
+      "検索順位 改善 手順"
+    ]
+  },
+  {
+    "domain": "keywordmint.example",
+    "topKeywords": [
+      "キーワード 難易度 調べ方",
+      "検索意図 分類",
+      "キーワード クラスタリング",
+      "サジェスト 取得 方法",
+      "コンテンツギャップ 分析"
+    ],
+    "estimatedTraffic": 29400,
+    "keywordGap": [
+      "キーワード 重複 整理",
+      "記事テーマ 決め方",
+      "検索意図 チェック",
+      "ロングテール seo",
+      "キーワード 優先度"
+    ]
+  }
+]
+

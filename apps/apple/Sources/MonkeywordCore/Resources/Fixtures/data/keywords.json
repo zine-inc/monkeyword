@@ -1,0 +1,228 @@
+[
+  {
+    "keyword": "seo ツール 無料",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 22000,
+    "intentCluster": "commercial",
+    "kdEst": 64,
+    "llmSummary": "無料の SEO ツールを探している人向けで、比較記事と使い方ガイドが狙い目です。"
+  },
+  {
+    "keyword": "キーワード 難易度 調べ方",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 5400,
+    "intentCluster": "informational",
+    "kdEst": 38,
+    "llmSummary": "検索で勝ちやすい言葉を選びたい人向けで、手順をやさしく説明すると読まれます。"
+  },
+  {
+    "keyword": "被リンク 増やし方",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 3600,
+    "intentCluster": "informational",
+    "kdEst": 52,
+    "llmSummary": "信頼されるサイトから紹介されたい人向けで、実例つきの方法記事が向いています。"
+  },
+  {
+    "keyword": "ローカル llm seo",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 1200,
+    "intentCluster": "informational",
+    "kdEst": 44,
+    "llmSummary": "社内環境で AI を使った SEO を試したい人向けで、安全面の説明が重要です。"
+  },
+  {
+    "keyword": "サジェスト 取得 方法",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 2900,
+    "intentCluster": "informational",
+    "kdEst": 35,
+    "llmSummary": "検索候補を集めたい人向けで、手作業とツール利用の違いを示すと伝わります。"
+  },
+  {
+    "keyword": "seo 順位 チェック",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 14800,
+    "intentCluster": "commercial",
+    "kdEst": 61,
+    "llmSummary": "検索順位を毎日確認したい人向けで、通知や履歴の見せ方が比較材料になります。"
+  },
+  {
+    "keyword": "コンテンツ seo 始め方",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 4300,
+    "intentCluster": "informational",
+    "kdEst": 41,
+    "llmSummary": "記事で集客を始めたい人向けで、最初の一歩を具体的に書くと読まれます。"
+  },
+  {
+    "keyword": "seo 競合分析",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 5100,
+    "intentCluster": "commercial",
+    "kdEst": 55,
+    "llmSummary": "競合が取れている検索語を知りたい人向けで、差分を見せる画面が刺さります。"
+  },
+  {
+    "keyword": "検索意図 分類",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 2600,
+    "intentCluster": "informational",
+    "kdEst": 32,
+    "llmSummary": "読者の目的に合わせて記事を作りたい人向けで、分類例を多く出すと役立ちます。"
+  },
+  {
+    "keyword": "seo 記事 構成",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 7600,
+    "intentCluster": "informational",
+    "kdEst": 49,
+    "llmSummary": "記事の見出し作りに悩む人向けで、テンプレート型の内容が向いています。"
+  },
+  {
+    "keyword": "内部リンク 最適化",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 1900,
+    "intentCluster": "informational",
+    "kdEst": 37,
+    "llmSummary": "サイト内の記事同士をつなげたい人向けで、優先順位の付け方が役に立ちます。"
+  },
+  {
+    "keyword": "ai seo ツール",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 8900,
+    "intentCluster": "commercial",
+    "kdEst": 68,
+    "llmSummary": "AI で SEO 作業を短くしたい人向けで、できることと限界を比較すると響きます。"
+  },
+  {
+    "keyword": "seo レポート 自動化",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 2100,
+    "intentCluster": "transactional",
+    "kdEst": 46,
+    "llmSummary": "定例レポートを短時間で作りたい人向けで、導入後の時間削減を示すと有効です。"
+  },
+  {
+    "keyword": "キーワード クラスタリング",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 1700,
+    "intentCluster": "informational",
+    "kdEst": 39,
+    "llmSummary": "似た検索語をまとめたい人向けで、記事設計の例を見せると理解されます。"
+  },
+  {
+    "keyword": "サイト監査 seo",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 3300,
+    "intentCluster": "commercial",
+    "kdEst": 48,
+    "llmSummary": "サイトの問題点を見つけたい人向けで、チェック項目の見える化が重要です。"
+  },
+  {
+    "keyword": "検索順位 変動 原因",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 4100,
+    "intentCluster": "informational",
+    "kdEst": 42,
+    "llmSummary": "順位が落ちた理由を知りたい人向けで、確認順を整理した記事が読まれます。"
+  },
+  {
+    "keyword": "seo 初心者 チェックリスト",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 6200,
+    "intentCluster": "informational",
+    "kdEst": 34,
+    "llmSummary": "初めて SEO を学ぶ人向けで、順番に確認できるリスト形式が向いています。"
+  },
+  {
+    "keyword": "メタディスクリプション 書き方",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 6900,
+    "intentCluster": "informational",
+    "kdEst": 29,
+    "llmSummary": "検索結果の説明文を良くしたい人向けで、改善前後の例が役に立ちます。"
+  },
+  {
+    "keyword": "seo ダッシュボード",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 1400,
+    "intentCluster": "commercial",
+    "kdEst": 45,
+    "llmSummary": "重要な数値をひと目で見たい人向けで、画面例と使い方の説明が合います。"
+  },
+  {
+    "keyword": "コンテンツギャップ 分析",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 950,
+    "intentCluster": "commercial",
+    "kdEst": 33,
+    "llmSummary": "競合に負けているテーマを知りたい人向けで、未着手の機会を示すと伝わります。"
+  },
+  {
+    "keyword": "seo 月次 レポート",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 1100,
+    "intentCluster": "transactional",
+    "kdEst": 31,
+    "llmSummary": "毎月の成果を共有したい人向けで、順位と訪問数をまとめる内容が向いています。"
+  },
+  {
+    "keyword": "構造化データ seo",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 4700,
+    "intentCluster": "informational",
+    "kdEst": 50,
+    "llmSummary": "検索結果で目立ちたい人向けで、設定例と注意点をやさしく書くと読まれます。"
+  },
+  {
+    "keyword": "seo タイトル 付け方",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 9800,
+    "intentCluster": "informational",
+    "kdEst": 43,
+    "llmSummary": "検索でクリックされるタイトルを作りたい人向けで、具体例が強い記事になります。"
+  },
+  {
+    "keyword": "小規模サイト seo",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 2300,
+    "intentCluster": "informational",
+    "kdEst": 28,
+    "llmSummary": "少人数で集客したい人向けで、手間の少ない優先施策を示すと役立ちます。"
+  },
+  {
+    "keyword": "seo ツール 比較",
+    "hl": "ja",
+    "gl": "JP",
+    "searchVolumeEst": 18200,
+    "intentCluster": "commercial",
+    "kdEst": 66,
+    "llmSummary": "複数の SEO ツールを比べたい人向けで、価格と使いやすさの表が効きます。"
+  }
+]
+

@@ -1,0 +1,978 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "app.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "monkeyword" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "monkeyword" } }
+      }
+    },
+    "audit.checks.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Audit checks" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "監査チェック" } }
+      }
+    },
+    "audit.empty.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "No audit fixture is available." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "監査 fixture がありません。" } }
+      }
+    },
+    "audit.empty.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "No audit data" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "監査データなし" } }
+      }
+    },
+    "audit.score": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Score" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "スコア" } }
+      }
+    },
+    "audit.score.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Site audit score" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "サイト監査スコア" } }
+      }
+    },
+    "audit.score.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Core Web Vitals and technical SEO checks from bundled mock data." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "同梱 mock データによる Core Web Vitals と技術 SEO の確認です。" } }
+      }
+    },
+    "audit.status.fail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Fail" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "要修正" } }
+      }
+    },
+    "audit.status.pass": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Pass" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "良好" } }
+      }
+    },
+    "audit.status.warn": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Warn" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "注意" } }
+      }
+    },
+    "audit.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Review Core Web Vitals, metadata, and crawl readiness." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Core Web Vitals、メタ情報、クロール準備状況を確認します。" } }
+      }
+    },
+    "audit.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Site Audit" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "サイト監査" } }
+      }
+    },
+    "audit.vital.cls": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "CLS" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "CLS" } }
+      }
+    },
+    "audit.vital.cls.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Layout shift" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "レイアウトずれ" } }
+      }
+    },
+    "audit.vital.inp": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "INP" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "INP" } }
+      }
+    },
+    "audit.vital.inp.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Interaction response" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "操作への応答" } }
+      }
+    },
+    "audit.vital.lcp": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "LCP" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "LCP" } }
+      }
+    },
+    "audit.vital.lcp.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Main content load" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "主要コンテンツ表示" } }
+      }
+    },
+    "backlink.chart.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Bar chart of source domain strength" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "参照元ドメイン強度の棒グラフ" } }
+      }
+    },
+    "backlink.chart.domain": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Domain" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ドメイン" } }
+      }
+    },
+    "backlink.chart.dr": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Domain strength" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ドメイン強度" } }
+      }
+    },
+    "backlink.chart.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Source domain strength" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "参照元ドメイン強度" } }
+      }
+    },
+    "backlink.follow": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Follow" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Follow" } }
+      }
+    },
+    "backlink.kpi.dr": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Avg. strength" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "平均強度" } }
+      }
+    },
+    "backlink.kpi.dr.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Source domains" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "参照元ドメイン" } }
+      }
+    },
+    "backlink.kpi.follow": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Follow links" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Follow リンク" } }
+      }
+    },
+    "backlink.kpi.follow.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Passes equity signal" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "評価シグナル対象" } }
+      }
+    },
+    "backlink.kpi.total": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Backlinks" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "被リンク" } }
+      }
+    },
+    "backlink.kpi.total.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Bundled sample rows" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "同梱サンプル行" } }
+      }
+    },
+    "backlink.nofollow": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Nofollow" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Nofollow" } }
+      }
+    },
+    "backlink.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Inspect mock backlink quality, anchors, and source domains." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "mock 被リンクの品質、アンカー、参照元ドメインを確認します。" } }
+      }
+    },
+    "backlink.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Backlink Analysis" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "被リンク分析" } }
+      }
+    },
+    "brief.copied": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Copied" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "コピー済み" } }
+      }
+    },
+    "brief.copy": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Copy" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "コピー" } }
+      }
+    },
+    "brief.copy.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Draft copy" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "下書きコピー" } }
+      }
+    },
+    "brief.empty.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "No brief fixture is available." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "構成案 fixture がありません。" } }
+      }
+    },
+    "brief.empty.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "No content brief" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "構成案なし" } }
+      }
+    },
+    "brief.faq": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "FAQ" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "FAQ" } }
+      }
+    },
+    "brief.outline": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Outline" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "構成案" } }
+      }
+    },
+    "brief.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Turn a target keyword into an outline, FAQ, and reusable draft copy." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "対象キーワードから構成案、FAQ、再利用できる下書きを作ります。" } }
+      }
+    },
+    "brief.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Content Brief" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "コンテンツ構成案" } }
+      }
+    },
+    "coach.status.done": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Done" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "完了" } }
+      }
+    },
+    "coach.status.snoozed": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Snoozed" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "保留" } }
+      }
+    },
+    "coach.status.todo": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Todo" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "未着手" } }
+      }
+    },
+    "coach.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Five concrete next actions from bundled local-LLM style fixtures." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ローカル LLM 風の fixture から、次の打ち手を 5 件表示します。" } }
+      }
+    },
+    "coach.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "AI Coach" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "AI コーチ" } }
+      }
+    },
+    "competitor.gap": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keyword gap" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "未対応キーワード" } }
+      }
+    },
+    "competitor.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Compare three fictional domains and find content opportunities." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "架空の 3 ドメインを比較し、コンテンツ機会を見つけます。" } }
+      }
+    },
+    "competitor.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Competitor Analysis" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "競合分析" } }
+      }
+    },
+    "competitor.topKeywords": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Top keywords" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "上位キーワード" } }
+      }
+    },
+    "competitor.traffic": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Estimated monthly traffic" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "推定月間流入" } }
+      }
+    },
+    "dashboard.chart.date": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Date" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "日付" } }
+      }
+    },
+    "dashboard.chart.intent": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Intent" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "検索意図" } }
+      }
+    },
+    "dashboard.chart.intentCount": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Count" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "件数" } }
+      }
+    },
+    "dashboard.chart.visibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Visibility" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "可視性" } }
+      }
+    },
+    "dashboard.intentDistribution": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keyword intent mix" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード意図分布" } }
+      }
+    },
+    "dashboard.intentDistribution.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Bar chart of keyword intent distribution" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード意図分布の棒グラフ" } }
+      }
+    },
+    "dashboard.kpi.keywords": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keywords" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード" } }
+      }
+    },
+    "dashboard.kpi.keywords.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Research candidates" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "調査候補" } }
+      }
+    },
+    "dashboard.kpi.rank": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Avg. rank" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "平均順位" } }
+      }
+    },
+    "dashboard.kpi.rank.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Latest tracked keywords" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "最新計測キーワード" } }
+      }
+    },
+    "dashboard.kpi.top10": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Top 10" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "10 位以内" } }
+      }
+    },
+    "dashboard.kpi.top10.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Current entries" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "現在の掲載数" } }
+      }
+    },
+    "dashboard.kpi.volume": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Search volume" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "月間検索数" } }
+      }
+    },
+    "dashboard.kpi.volume.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Estimated total" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "推定合計" } }
+      }
+    },
+    "dashboard.nextActions": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "AI coach next actions" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "AI コーチの次の打ち手" } }
+      }
+    },
+    "dashboard.rankTrend": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Rank visibility trend" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位可視性の推移" } }
+      }
+    },
+    "dashboard.rankTrend.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Line chart of rank visibility trend" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位可視性推移の折れ線グラフ" } }
+      }
+    },
+    "dashboard.recentJobs": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Recent jobs" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "最近のジョブ" } }
+      }
+    },
+    "dashboard.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "A mock overview of rankings, keyword opportunities, and next actions." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位、キーワード機会、次の打ち手を mock データで俯瞰します。" } }
+      }
+    },
+    "dashboard.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Dashboard" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ダッシュボード" } }
+      }
+    },
+    "intent.commercial": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Commercial" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "比較・購入" } }
+      }
+    },
+    "intent.informational": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Informational" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "情報収集" } }
+      }
+    },
+    "intent.transactional": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Transactional" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "行動直前" } }
+      }
+    },
+    "job.kind.aiCoach": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "AI coach" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "AI コーチ" } }
+      }
+    },
+    "job.kind.audit": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Site audit" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "サイト監査" } }
+      }
+    },
+    "job.kind.backlink": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Backlink scan" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "被リンク確認" } }
+      }
+    },
+    "job.kind.brief": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Content brief" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "構成案" } }
+      }
+    },
+    "job.kind.competitor": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Competitor analysis" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "競合分析" } }
+      }
+    },
+    "job.kind.contentOptimize": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Content optimization" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "記事改善" } }
+      }
+    },
+    "job.kind.gap": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Gap analysis" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "差分分析" } }
+      }
+    },
+    "job.kind.internalLink": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Internal links" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "内部リンク" } }
+      }
+    },
+    "job.kind.rank": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Rank tracking" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位計測" } }
+      }
+    },
+    "job.kind.suggest": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keyword suggestions" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード候補" } }
+      }
+    },
+    "job.kind.topicCluster": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Topic cluster" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "トピック群" } }
+      }
+    },
+    "job.status.done": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Done" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "完了" } }
+      }
+    },
+    "job.status.queued": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Queued" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "待機中" } }
+      }
+    },
+    "job.status.running": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Running" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "実行中" } }
+      }
+    },
+    "keyword.column.difficulty": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Difficulty" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "難易度" } }
+      }
+    },
+    "keyword.column.keyword": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keyword" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード" } }
+      }
+    },
+    "keyword.column.volume": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Volume" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "検索数" } }
+      }
+    },
+    "keyword.empty.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Try a different keyword query." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "別のキーワードで絞り込んでください。" } }
+      }
+    },
+    "keyword.empty.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "No matching keywords" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "一致するキーワードなし" } }
+      }
+    },
+    "keyword.search.clear": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Clear keyword search" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード検索をクリア" } }
+      }
+    },
+    "keyword.search.label": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keyword search" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード検索" } }
+      }
+    },
+    "keyword.search.placeholder": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Search keywords or summaries" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワードや要約で検索" } }
+      }
+    },
+    "keyword.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Filter research candidates and inspect intent, volume, and difficulty." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "調査候補を絞り込み、検索意図、検索数、難易度を確認します。" } }
+      }
+    },
+    "keyword.table.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Results" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "結果一覧" } }
+      }
+    },
+    "keyword.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keyword Research" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード調査" } }
+      }
+    },
+    "keyword.wheel.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Radial view of top keyword suggestions" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "上位キーワード候補の放射状ビュー" } }
+      }
+    },
+    "keyword.wheel.center": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Topics" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "テーマ" } }
+      }
+    },
+    "keyword.wheel.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Question-style topic wheel" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "質問発想のトピックホイール" } }
+      }
+    },
+    "mock.banner.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Mock mode is enabled. Data is bundled and offline." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "モックモードが有効です。データは同梱され、オフラインで動作します。" } }
+      }
+    },
+    "mock.banner.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Bundled fixtures, no live requests" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "同梱 fixture のみ、ライブ通信なし" } }
+      }
+    },
+    "mock.banner.disabled": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Mock Mode required in Phase 1" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Phase 1 は Mock Mode 固定" } }
+      }
+    },
+    "mock.banner.enabled": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Mock Mode" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Mock Mode" } }
+      }
+    },
+    "nav.aiCoach": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "AI Coach" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "AI コーチ" } }
+      }
+    },
+    "nav.backlinks": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Backlinks" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "被リンク" } }
+      }
+    },
+    "nav.competitors": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Competitors" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "競合" } }
+      }
+    },
+    "nav.contentBrief": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Brief" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "構成案" } }
+      }
+    },
+    "nav.dashboard": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Dashboard" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ダッシュボード" } }
+      }
+    },
+    "nav.keywordResearch": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Keywords" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード" } }
+      }
+    },
+    "nav.rankTracking": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Ranks" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位" } }
+      }
+    },
+    "nav.settings": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Settings" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "設定" } }
+      }
+    },
+    "nav.siteAudit": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Audit" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "監査" } }
+      }
+    },
+    "onboarding.back": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Back" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "戻る" } }
+      }
+    },
+    "onboarding.next": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Next" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "次へ" } }
+      }
+    },
+    "onboarding.progress": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Onboarding progress" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "オンボーディングの進行状況" } }
+      }
+    },
+    "onboarding.start": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Start" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "開始" } }
+      }
+    },
+    "onboarding.step1.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Phase 1 runs fully offline with bundled mock fixtures." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Phase 1 は同梱 mock fixture のみで完全オフライン動作します。" } }
+      }
+    },
+    "onboarding.step1.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Private by default" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "標準でプライベート" } }
+      }
+    },
+    "onboarding.step2.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Review keyword opportunities, rank movement, backlinks, and technical checks." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "キーワード機会、順位推移、被リンク、技術チェックを確認できます。" } }
+      }
+    },
+    "onboarding.step2.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Research workspace" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "リサーチ作業台" } }
+      }
+    },
+    "onboarding.step3.detail": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Local-LLM style suggestions highlight the next actions to take." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ローカル LLM 風の提案で、次にやることを整理します。" } }
+      }
+    },
+    "onboarding.step3.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Actionable next steps" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "次の打ち手を明確に" } }
+      }
+    },
+    "project.selector": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Project selector" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "プロジェクト選択" } }
+      }
+    },
+    "rank.chart.date": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Date" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "日付" } }
+      }
+    },
+    "rank.chart.position": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Position score" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位スコア" } }
+      }
+    },
+    "rank.current": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Current" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "現在" } }
+      }
+    },
+    "rank.featuredSnippet": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Featured" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "強調表示" } }
+      }
+    },
+    "rank.sparkline.accessibility": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Seven day rank sparkline" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "7 日間の順位スパークライン" } }
+      }
+    },
+    "rank.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Monitor seven days of fixed mock ranking history." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "固定 mock データで 7 日間の順位履歴を確認します。" } }
+      }
+    },
+    "rank.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Rank Tracking" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "順位トラッキング" } }
+      }
+    },
+    "rank.trend.down": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Down" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "下降" } }
+      }
+    },
+    "rank.trend.flat": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Flat" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "横ばい" } }
+      }
+    },
+    "rank.trend.new": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "New" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "新規" } }
+      }
+    },
+    "rank.trend.up": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Up" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "上昇" } }
+      }
+    },
+    "settings.apiKey": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "API key" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "API キー" } }
+      }
+    },
+    "settings.apiKey.placeholder": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Unavailable in mock mode" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Mock Mode では未使用" } }
+      }
+    },
+    "settings.apiURL": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "API URL" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "API URL" } }
+      }
+    },
+    "settings.apiURL.placeholder": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Live endpoint disabled in Phase 1" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Phase 1 ではライブ接続なし" } }
+      }
+    },
+    "settings.check": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Check" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "確認" } }
+      }
+    },
+    "settings.connection": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Connection" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "接続" } }
+      }
+    },
+    "settings.connection.mockOnly": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Mock mode only. The app uses bundled fixtures and makes no live requests." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Mock Mode 専用です。同梱 fixture のみを使い、ライブ通信は行いません。" } }
+      }
+    },
+    "settings.language": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Language" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "言語" } }
+      }
+    },
+    "settings.language.en": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "English" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "英語" } }
+      }
+    },
+    "settings.language.ja": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Japanese" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "日本語" } }
+      }
+    },
+    "settings.mockMode": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Mock Mode" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Mock Mode" } }
+      }
+    },
+    "settings.preferences": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Preferences" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "表示設定" } }
+      }
+    },
+    "settings.privacy": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Privacy posture" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "プライバシー方針" } }
+      }
+    },
+    "settings.privacy.fixtures": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Sample domains use fictional fixture data." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "サンプルドメインは架空 fixture データです。" } }
+      }
+    },
+    "settings.privacy.local": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Local-LLM style suggestions are mock outputs." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ローカル LLM 風の提案は mock 出力です。" } }
+      }
+    },
+    "settings.privacy.offline": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Offline-first mock mode is active." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "オフライン優先の Mock Mode が有効です。" } }
+      }
+    },
+    "settings.subtitle": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Configure mock mode, language, and appearance." } },
+        "ja": { "stringUnit": { "state": "translated", "value": "Mock Mode、言語、表示テーマを設定します。" } }
+      }
+    },
+    "settings.theme": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Theme" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "テーマ" } }
+      }
+    },
+    "settings.theme.dark": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Dark" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ダーク" } }
+      }
+    },
+    "settings.theme.light": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Light" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "ライト" } }
+      }
+    },
+    "settings.theme.system": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "System" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "OS 追従" } }
+      }
+    },
+    "settings.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Settings" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "設定" } }
+      }
+    },
+    "state.loading": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Loading" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "読み込み中" } }
+      }
+    },
+    "state.offline.title": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Offline data could not be loaded" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "オフラインデータを読み込めません" } }
+      }
+    },
+    "state.retry": {
+      "localizations": {
+        "en": { "stringUnit": { "state": "translated", "value": "Retry" } },
+        "ja": { "stringUnit": { "state": "translated", "value": "再試行" } }
+      }
+    }
+  },
+  "version": "1.0"
+}

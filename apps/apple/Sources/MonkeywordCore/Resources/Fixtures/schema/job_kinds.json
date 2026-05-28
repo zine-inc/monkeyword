@@ -1,0 +1,73 @@
+{
+  "kinds": [
+    {
+      "value": "monkeyword/suggest",
+      "worker": "worker-scraping",
+      "usesLlm": true,
+      "usesScraping": true
+    },
+    {
+      "value": "monkeyword/rank",
+      "worker": "worker-scraping",
+      "usesLlm": false,
+      "usesScraping": true
+    },
+    {
+      "value": "monkeyword/backlink",
+      "worker": "worker-scraping",
+      "usesLlm": true,
+      "usesScraping": true
+    },
+    {
+      "value": "monkeyword/competitor",
+      "worker": "worker-scraping",
+      "usesLlm": true,
+      "usesScraping": true
+    },
+    {
+      "value": "monkeyword/audit",
+      "worker": "worker-audit",
+      "usesLlm": true,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/brief",
+      "worker": "worker-llm",
+      "usesLlm": true,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/gap",
+      "worker": "worker-llm",
+      "usesLlm": true,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/topic_cluster",
+      "worker": "worker-llm",
+      "usesLlm": true,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/content_optimize",
+      "worker": "worker-llm",
+      "usesLlm": true,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/internal_link",
+      "worker": "worker-llm",
+      "usesLlm": true,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/ai_coach",
+      "worker": "worker-llm",
+      "usesLlm": true,
+      "usesScraping": false
+    }
+  ],
+  "generatedFrom": "shared/job_kinds.py",
+  "version": 1
+}
+

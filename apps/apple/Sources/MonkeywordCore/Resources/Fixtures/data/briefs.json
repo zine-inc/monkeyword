@@ -1,0 +1,26 @@
+[
+  {
+    "keyword": "被リンク 増やし方",
+    "intent": "自然な被リンクを増やす具体策と、やってはいけない方法を知りたい",
+    "outline": [
+      "被リンクが増えると何が変わるのか",
+      "先に整えるべきコンテンツとプロフィール",
+      "引用されやすい一次情報の作り方",
+      "掲載依頼メールの自然な送り方",
+      "避けるべき危ないリンク獲得手法",
+      "獲得後に見るべき指標と次の改善"
+    ],
+    "faq": [
+      "被リンクは何本あれば効果が出ますか？",
+      "nofollow のリンクにも意味はありますか？",
+      "相互リンクは避けたほうがよいですか？",
+      "新しいサイトでも被リンクを増やせますか？"
+    ],
+    "internalLinks": [
+      "https://monkeyword.1stop.direct/guides/free-seo-tools",
+      "https://monkeyword.1stop.direct/guides/keyword-difficulty",
+      "https://monkeyword.1stop.direct/features/backlink-monitoring"
+    ]
+  }
+]
+
