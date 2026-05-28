@@ -1,0 +1,153 @@
+{
+  "app": {
+    "name": "monkeyword",
+    "subtitle": "Personal research assistant",
+    "mockMode": "Mock Mode",
+    "mockDetail": "Fictional data only",
+    "retry": "Retry",
+    "loading": "Loading",
+    "offlineTitle": "Data could not be loaded",
+    "offlineBody": "The app will retry bundled fixtures. No network connection is used.",
+    "project": "Project",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "noRows": "No rows",
+    "fixtureWindow": "7 day fixture",
+    "total": "Total",
+    "type": "Type",
+    "localeCode": "Locale"
+  },
+  "nav": {
+    "onboarding": "Onboarding",
+    "dashboard": "Dashboard",
+    "keywords": "Keywords",
+    "ranks": "Ranks",
+    "backlinks": "Backlinks",
+    "audit": "Audit",
+    "competitors": "Competitors",
+    "brief": "Brief",
+    "coach": "AI Coach",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "eyebrow": "Overview",
+    "title": "See today’s priorities in one workspace",
+    "body": "Review search intent, rankings, backlinks, audit signals, and next actions using mock data.",
+    "trackedKeywords": "Tracked keywords",
+    "averageRank": "Average rank",
+    "openJobs": "Open jobs",
+    "coachItems": "Open actions",
+    "rankTrend": "Average rank trend",
+    "intentMix": "Intent mix",
+    "recentJobs": "Recent jobs",
+    "nextActions": "Next actions"
+  },
+  "onboarding": {
+    "eyebrow": "Setup",
+    "title": "Explore the mock workspace in three minutes",
+    "body": "The app uses bundled fictional data only and does not connect to live services.",
+    "step1": "Confirm the target domain",
+    "step2": "Review keywords and rankings",
+    "step3": "Turn coach advice into action candidates",
+    "keywordCount": "25 keywords",
+    "actionCount": "5 actions",
+    "start": "Start demo analysis",
+    "queued": "Mock job added to the queue"
+  },
+  "keywords": {
+    "eyebrow": "Research",
+    "title": "Keyword candidates",
+    "body": "Compare search volume, difficulty, and intent clusters.",
+    "volume": "Estimated volume",
+    "difficulty": "Difficulty",
+    "intent": "Intent",
+    "summary": "Local LLM summary",
+    "filter": "Filter by intent",
+    "all": "All"
+  },
+  "ranks": {
+    "eyebrow": "Tracking",
+    "title": "Rank tracking",
+    "body": "Inspect ranking changes and SERP features with the fixed seven-day fixture.",
+    "keyword": "Keyword",
+    "position": "Rank",
+    "previous": "Previous",
+    "features": "SERP features",
+    "trend": "Rank trend",
+    "trendShort": "Trend"
+  },
+  "backlinks": {
+    "eyebrow": "Authority",
+    "title": "Backlink analysis",
+    "body": "Review fictional referring links sorted by quality.",
+    "source": "Source",
+    "anchor": "Anchor",
+    "pagerank": "PageRank",
+    "totalLinks": "Total links",
+    "follow": "follow",
+    "nofollow": "nofollow"
+  },
+  "audit": {
+    "eyebrow": "Quality",
+    "title": "Site audit",
+    "body": "Display Core Web Vitals and basic checks from mock data.",
+    "score": "Audit score",
+    "checks": "Checks",
+    "coreWebVitals": "Core Web Vitals",
+    "passed": "Passed",
+    "warning": "Warning",
+    "failed": "Failed"
+  },
+  "competitors": {
+    "eyebrow": "Market",
+    "title": "Competitor analysis",
+    "body": "Compare fictional competitor domains and keyword gaps.",
+    "traffic": "Estimated traffic",
+    "topKeywords": "Top keywords",
+    "gap": "Keyword gap"
+  },
+  "brief": {
+    "eyebrow": "Content",
+    "title": "Content brief",
+    "body": "Organize intent, outline, FAQ, and internal link candidates.",
+    "intent": "Search intent",
+    "outline": "Outline",
+    "faq": "FAQ",
+    "internalLinks": "Internal links",
+    "optimize": "Refresh brief"
+  },
+  "coach": {
+    "eyebrow": "Local LLM",
+    "title": "AI Coach",
+    "body": "Review the next actions sorted by priority.",
+    "priority": "Priority",
+    "reason": "Reason",
+    "effect": "Expected effect",
+    "related": "Related keyword"
+  },
+  "settings": {
+    "eyebrow": "Preferences",
+    "title": "Settings",
+    "body": "Phase 1 is locked to mock mode. Saved credentials are never shown again.",
+    "apiUrl": "API URL",
+    "apiKey": "Credential",
+    "apiKeyPlaceholder": "Enter a value to store locally",
+    "hasApiKey": "Credential saved",
+    "clearApiKey": "Clear credential",
+    "save": "Save",
+    "saved": "Saved",
+    "mockLocked": "Mock Mode locked"
+  },
+  "status": {
+    "queued": "Queued",
+    "running": "Running",
+    "done": "Done",
+    "todo": "Todo",
+    "snoozed": "Snoozed",
+    "pass": "Pass",
+    "warn": "Warn",
+    "fail": "Fix"
+  }
+}
