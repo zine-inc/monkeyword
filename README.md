@@ -47,6 +47,11 @@ A persistent **"Mock Mode"** banner is shown while sample data is in use.
 - **Windows:** see [`apps/windows/README.md`](apps/windows/README.md)
 - **n8n node:** see [`n8n-nodes-monkeyword/README.md`](n8n-nodes-monkeyword/README.md)
 
+## Documentation
+
+- [docs/architecture.md](docs/architecture.md) — public architecture overview
+- [docs/oss-strategy.md](docs/oss-strategy.md) — open-source vs. managed boundary
+
 ## License
 
 [MIT](LICENSE) © 2026 ZINE Inc.
