@@ -3,6 +3,7 @@
 [![apple-build](https://github.com/zine-inc/monkeyword/actions/workflows/apple-build.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/apple-build.yml)
 [![windows-app](https://github.com/zine-inc/monkeyword/actions/workflows/windows-app.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/windows-app.yml)
 [![n8n-node-build](https://github.com/zine-inc/monkeyword/actions/workflows/n8n-node-build.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/n8n-node-build.yml)
+[![mcp-build](https://github.com/zine-inc/monkeyword/actions/workflows/mcp-build.yml/badge.svg)](https://github.com/zine-inc/monkeyword/actions/workflows/mcp-build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20iOS%20%7C%20Windows-blue)
 
@@ -20,6 +21,7 @@ monkeyword is the open-source **client suite** for the monkeyword SEO platform. 
 
 - **Desktop & mobile apps** — macOS, iOS, Windows
 - **n8n community node** — run keyword research inside your automation workflows
+- **MCP server** — call monkeyword tools from Claude Desktop, Claude Code, and other agents
 - **Privacy-first** — all AI runs on a local LLM; no OpenAI / Claude / Gemini API is used
 - **Beginner-friendly** — enter a domain, get a week of concrete actions from the AI coach
 - **Multilingual** — Japanese & English (more languages planned)
@@ -32,6 +34,7 @@ monkeyword is the open-source **client suite** for the monkeyword SEO platform. 
 | `apps/windows/` | Windows app (Tauri: Rust + web frontend) |
 | `apps/shared-fixtures/` | Shared sample data so every platform renders the same screens |
 | `n8n-nodes-monkeyword/` | n8n community node (TypeScript) |
+| `monkeyword-mcp/` | Model Context Protocol (stdio) server for agents — Claude Desktop / Claude Code (TypeScript) |
 | `tools/` | Developer tooling |
 | `docs/` | Public documentation |
 
@@ -46,6 +49,7 @@ A persistent **"Mock Mode"** banner is shown while sample data is in use.
 - **macOS / iOS:** see [`apps/apple/README.md`](apps/apple/README.md)
 - **Windows:** see [`apps/windows/README.md`](apps/windows/README.md)
 - **n8n node:** see [`n8n-nodes-monkeyword/README.md`](n8n-nodes-monkeyword/README.md)
+- **MCP server:** see [`monkeyword-mcp/README.md`](monkeyword-mcp/README.md)
 
 ## Documentation
 
