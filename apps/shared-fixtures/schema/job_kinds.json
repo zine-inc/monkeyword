@@ -65,9 +65,20 @@
       "worker": "worker-llm",
       "usesLlm": true,
       "usesScraping": false
+    },
+    {
+      "value": "monkeyword/aeo_visibility",
+      "worker": "diagnostic",
+      "usesLlm": false,
+      "usesScraping": false
+    },
+    {
+      "value": "monkeyword/aeo_audit",
+      "worker": "worker-audit",
+      "usesLlm": true,
+      "usesScraping": false
     }
   ],
   "generatedFrom": "shared/job_kinds.py",
   "version": 1
 }
-
