@@ -1,21 +1,32 @@
 {
   "name": "n8n-nodes-monkeyword",
-  "version": "0.1.0",
-  "description": "n8n community node for monkeyword — AI-powered SEO keyword research with local LLM",
+  "version": "0.2.0",
+  "description": "n8n community node for monkeyword — AI-powered SEO keyword research with a local LLM backend",
   "license": "MIT",
   "author": "ZINE Inc. (https://zineinc.co.jp)",
-  "homepage": "https://github.com/zine-inc/monkeyword",
+  "homepage": "https://github.com/zine-inc/monkeyword/tree/main/n8n-nodes-monkeyword#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zine-inc/monkeyword.git",
     "directory": "n8n-nodes-monkeyword"
   },
+  "bugs": {
+    "url": "https://github.com/zine-inc/monkeyword/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "main": "index.js",
+  "files": [
+    "dist",
+    "index.js"
+  ],
   "keywords": [
     "n8n-community-node-package",
     "n8n",
     "seo",
-    "keyword",
+    "aeo",
+    "keyword-research",
     "monkeyword"
   ],
   "n8n": {

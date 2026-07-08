@@ -7,6 +7,9 @@ import type {
 } from 'n8n-workflow';
 import { NodeConnectionTypes, NodeOperationError } from 'n8n-workflow';
 
+const KEY_SIGNUP_URL =
+  'https://monkeyword.1stop.direct/llmo-shindan.html?utm_source=n8n&utm_medium=node_error';
+
 type IntentCluster =
   | 'informational'
   | 'transactional'
@@ -181,10 +184,18 @@ export class Monkeyword implements INodeType {
         continue;
       }
 
+      if (!apiKey) {
+        throw new NodeOperationError(
+          this.getNode(),
+          `Monkeyword API key is required when Mock Mode is off. Get a key by starting the LLMO diagnostic at ${KEY_SIGNUP_URL} (a key is also issued with the weekly SEO coach plan), or turn Mock Mode back on to keep testing with sample data.`,
+          { itemIndex: i },
+        );
+      }
+
       if (!baseUrl) {
         throw new NodeOperationError(
           this.getNode(),
-          'Base URL is required when mock mode is off',
+          'Base URL is required when Mock Mode is off',
           { itemIndex: i },
         );
       }
