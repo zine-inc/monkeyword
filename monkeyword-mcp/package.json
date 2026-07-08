@@ -1,0 +1,55 @@
+{
+  "name": "monkeyword-mcp",
+  "version": "0.1.0",
+  "description": "Model Context Protocol (stdio) server for monkeyword — SEO/AEO keyword research, AEO audit, intent classification, and rank tracking",
+  "license": "MIT",
+  "author": "ZINE Inc. (https://zineinc.co.jp)",
+  "homepage": "https://github.com/zine-inc/monkeyword",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zine-inc/monkeyword.git",
+    "directory": "monkeyword-mcp"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "monkeyword-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "model-context-protocol",
+    "seo",
+    "aeo",
+    "keyword",
+    "monkeyword"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.24",
+    "@typescript-eslint/eslint-plugin": "^8.60.0",
+    "@typescript-eslint/parser": "^8.60.0",
+    "eslint": "^8.57.1",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9"
+  }
+}

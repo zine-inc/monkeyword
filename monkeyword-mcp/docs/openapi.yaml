@@ -1,0 +1,306 @@
+openapi: 3.1.0
+info:
+  title: monkeyword hosted API
+  version: "0.1.0"
+  description: >
+    REST API that the monkeyword MCP server calls in non-mock mode. Every
+    endpoint requires a bearer API key. Keys are issued with an LLMO診断
+    (paid diagnosis) or a coaching contract. In mock mode the MCP server does
+    not call this API at all and returns bundled sample data instead.
+  license:
+    name: MIT
+    url: https://github.com/zine-inc/monkeyword/blob/main/LICENSE
+servers:
+  - url: https://api.monkeyword.1stop.direct
+    description: Production (default MONKEYWORD_API_URL)
+security:
+  - bearerAuth: []
+paths:
+  /v1/suggest:
+    post:
+      operationId: suggestKeywords
+      summary: Expand a seed keyword into related search queries
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/SuggestRequest"
+      responses:
+        "200":
+          description: Suggestions for the seed keyword
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SuggestResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+  /v1/aeo_audit_lite:
+    post:
+      operationId: aeoAuditLite
+      summary: Lightweight Answer-Engine-Optimization check for a URL
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AeoAuditRequest"
+      responses:
+        "200":
+          description: robots AI-crawler policy and structured-data presence
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AeoAuditResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+  /v1/keyword_intent:
+    post:
+      operationId: keywordIntent
+      summary: Classify keywords into search-intent clusters
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/KeywordIntentRequest"
+      responses:
+        "200":
+          description: One intent classification per input keyword
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/KeywordIntentResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+  /v1/rank_gsc:
+    post:
+      operationId: rankGsc
+      summary: Own-site position for a query from linked Google Search Console data
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RankGscRequest"
+      responses:
+        "200":
+          description: Ranking rows for the query
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RankGscResponse"
+        "401":
+          $ref: "#/components/responses/Unauthorized"
+        "429":
+          $ref: "#/components/responses/RateLimited"
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      description: Bearer API key supplied via the MONKEYWORD_API_KEY environment variable.
+  responses:
+    Unauthorized:
+      description: Missing or invalid API key
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+          example:
+            error: "unauthorized"
+            message: "APIキーが無効です。"
+    RateLimited:
+      description: Rate limit exceeded
+      headers:
+        Retry-After:
+          schema:
+            type: integer
+          description: Seconds to wait before retrying
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+          example:
+            error: "rate_limited"
+            message: "レート制限に達しました。"
+  schemas:
+    IntentCluster:
+      type: string
+      enum: [informational, commercial, transactional, navigational]
+    Error:
+      type: object
+      required: [error, message]
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+    SuggestRequest:
+      type: object
+      required: [keyword]
+      properties:
+        keyword:
+          type: string
+          minLength: 1
+        hl:
+          type: string
+          default: ja
+          description: Interface language code, e.g. ja or en
+        gl:
+          type: string
+          default: JP
+          description: Geo/country code, e.g. JP or US
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 100
+          default: 20
+    SuggestResponse:
+      type: object
+      required: [kind, suggestions]
+      properties:
+        kind:
+          type: string
+          const: monkeyword/suggest
+        suggestions:
+          type: array
+          items:
+            type: object
+            required: [keyword, hl, gl, intentCluster]
+            properties:
+              keyword:
+                type: string
+              hl:
+                type: string
+              gl:
+                type: string
+              searchVolumeEst:
+                type: integer
+              intentCluster:
+                $ref: "#/components/schemas/IntentCluster"
+              kdEst:
+                type: integer
+    AeoAuditRequest:
+      type: object
+      required: [url]
+      properties:
+        url:
+          type: string
+          format: uri
+    AeoAuditResponse:
+      type: object
+      required: [kind, url, robots, structuredData]
+      properties:
+        kind:
+          type: string
+          const: monkeyword/aeo_audit_lite
+        url:
+          type: string
+          format: uri
+        robots:
+          type: object
+          required: [fetched, aiCrawlers]
+          properties:
+            fetched:
+              type: boolean
+            aiCrawlers:
+              type: array
+              items:
+                type: object
+                required: [agent, allowed]
+                properties:
+                  agent:
+                    type: string
+                  allowed:
+                    type: boolean
+        structuredData:
+          type: object
+          required: [hasJsonLd, types]
+          properties:
+            hasJsonLd:
+              type: boolean
+            types:
+              type: array
+              items:
+                type: string
+            hasFaq:
+              type: boolean
+            hasHowTo:
+              type: boolean
+        notes:
+          type: array
+          items:
+            type: string
+    KeywordIntentRequest:
+      type: object
+      required: [keywords]
+      properties:
+        keywords:
+          type: array
+          minItems: 1
+          maxItems: 200
+          items:
+            type: string
+            minLength: 1
+    KeywordIntentResponse:
+      type: object
+      required: [kind, results]
+      properties:
+        kind:
+          type: string
+          const: monkeyword/keyword_intent
+        results:
+          type: array
+          items:
+            type: object
+            required: [keyword, intentCluster]
+            properties:
+              keyword:
+                type: string
+              intentCluster:
+                $ref: "#/components/schemas/IntentCluster"
+    RankGscRequest:
+      type: object
+      required: [site, query]
+      properties:
+        site:
+          type: string
+          description: Search Console property, e.g. sc-domain:example.com or a URL prefix
+        query:
+          type: string
+    RankGscResponse:
+      type: object
+      required: [kind, site, query, rows]
+      properties:
+        kind:
+          type: string
+          const: monkeyword/rank_gsc
+        site:
+          type: string
+        query:
+          type: string
+        rows:
+          type: array
+          items:
+            type: object
+            required: [query, page, position]
+            properties:
+              query:
+                type: string
+              page:
+                type: string
+              position:
+                type: number
+              clicks:
+                type: integer
+              impressions:
+                type: integer
+              ctr:
+                type: number
